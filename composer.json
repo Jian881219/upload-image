@@ -1,5 +1,5 @@
 {
-    "name": "fts3232/upload-image",
+    "name": "fts/upload-image",
     "description": "laravel 5 upload package",
     "type": "package",
     "license":"MIT",
