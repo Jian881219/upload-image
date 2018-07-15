@@ -3,17 +3,16 @@
 [![Total Downloads](https://poser.pugx.org/fts/upload-image/downloads)](https://packagist.org/packages/fts/upload-image)
 [![License](https://poser.pugx.org/fts/upload-image/license)](https://packagist.org/packages/fts/upload-image)
 
-This package allows you to easily handle uploaded files
-* Support add watermark
-# Install
-Install the `upload-image` package with composer:
-
+# 功能
+* 上传图片
+* 添加水印
+# 安装
     composer require fts/upload-image
-### Publish Config
+### 发布配置文件
     php artisan vendor:publish
-### Service Provider
-Open `config/app.php` and add a new item to the providers array:
+### 添加服务提供者
+打开 `config/app.php` 并添加以下内容到 providers 数组:
     
     fts\UploadImageServiceProvider.php::class
-# Example Usage
+# 使用
     upload_image($key, $fileName='');
