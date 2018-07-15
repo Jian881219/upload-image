@@ -1,8 +1,12 @@
 {
     "name": "fts/upload-image",
-    "description": "laravel 5 upload package",
+    "description": "laravel 5 upload image package",
     "type": "package",
     "license":"MIT",
+    "keywords":[
+        "laravel",
+        "upload image"
+    ],
     "authors": [
         {
             "name": "tianshuo feng",
