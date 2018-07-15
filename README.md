@@ -4,8 +4,7 @@
 [![License](https://poser.pugx.org/fts/upload-image/license)](https://packagist.org/packages/fts/upload-image)
 
 This package allows you to easily handle uploaded files
-* Support
-    * add watermark
+* Support add watermark
 # Install
 Install the `upload-image` package with composer:
 
