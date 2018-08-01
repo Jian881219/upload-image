@@ -13,6 +13,6 @@
 ### 添加服务提供者
 打开 `config/app.php` 并添加以下内容到 providers 数组:
     
-    fts\UploadImageServiceProvider.php::class
+    fts\UploadImage\UploadImageServiceProvider.php::class
 # 使用
     upload_image($key, $fileName='');
